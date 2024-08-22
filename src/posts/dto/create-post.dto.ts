@@ -14,5 +14,5 @@ export class CreatePostDto {
   body: string;
 
   @ApiProperty()
-  createdAt: string;
+  createdAt: number;
 }
